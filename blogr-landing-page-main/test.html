@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogr - Landing Page - Challenge - Frontend Mentor</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+    <div class="container mx-auto p-4">
+        <header class="text-white bg-gradient-to-r from-red-500 to-orange-400 py-8">
+            <nav class="flex justify-between items-center">
+                <div class="text-2xl font-bold">Blogr</div>
+                <div class="flex gap-8">
+                    <div class="relative group">
+                        <h4 class="cursor-pointer">Product</h4>
+                        <div class="hidden group-hover:block absolute bg-white text-gray-800 p-4 rounded-lg shadow-lg">
+                            <a href="#" class="block py-1">Overview</a>
+                            <a href="#" class="block py-1">Pricing</a>
+                            <a href="#" class="block py-1">Marketplace</a>
+                            <a href="#" class="block py-1">Features</a>
+                            <a href="#" class="block py-1">Integrations</a>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <h4 class="cursor-pointer">Company</h4>
+                        <div class="hidden group-hover:block absolute bg-white text-gray-800 p-4 rounded-lg shadow-lg">
+                            <a href="#" class="block py-1">About</a>
+                            <a href="#" class="block py-1">Team</a>
+                            <a href="#" class="block py-1">Blog</a>
+                            <a href="#" class="block py-1">Careers</a>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <h4 class="cursor-pointer">Connect</h4>
+                        <div class="hidden group-hover:block absolute bg-white text-gray-800 p-4 rounded-lg shadow-lg">
+                            <a href="#" class="block py-1">Contact</a>
+                            <a href="#" class="block py-1">Newsletter</a>
+                            <a href="#" class="block py-1">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <a href="#" class="border border-white py-2 px-4 rounded-lg">Login</a>
+                    <a href="#" class="bg-white text-red-500 py-2 px-4 rounded-lg">Sign Up</a>
+                </div>
+            </nav>
+            <div class="text-center mt-16">
+                <h1 class="text-4xl font-bold">A modern publishing platform</h1>
+                <h2 class="text-2xl mt-4">Grow your audience and build your online brand</h2>
+                <div class="mt-8 flex justify-center gap-4">
+                    <a href="#" class="bg-white text-red-500 py-2 px-8 rounded-full">Start for Free</a>
+                    <a href="#" class="border border-white py-2 px-8 rounded-full">Learn More</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="flex flex-wrap justify-between items-center py-16">
+            <div class="flex-1 pr-8">
+                <h2 class="text-3xl font-bold">Designed for the future</h2>
+                <h4 class="text-xl font-semibold mt-8">Introducing an extensible editor</h4>
+                <p class="mt-4">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                    The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                    videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                    change the looks of a blog.</p>
+                <h4 class="text-xl font-semibold mt-8">Robust content management</h4>
+                <p class="mt-4">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                    by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+            </div>
+            <div class="flex-1 text-center">
+                <img src="images/illustration-editor-mobile.svg" alt="Editor Illustration" class="mx-auto">
+            </div>
+        </section>
+
+        <section class="relative bg-dark-blue py-16 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="images/bg-pattern-circles.svg" alt="Background Pattern" class="absolute w-full h-full object-cover opacity-20">
+            </div>
+            <div class="relative container mx-auto flex flex-wrap justify-between items-center">
+                <div class="flex-1 text-center">
+                    <img src="images/illustration-phones.svg" alt="Phones Illustration" class="mx-auto">
+                </div>
+                <div class="flex-1 pl-8 text-white">
+                    <h3 class="text-3xl font-bold">State of the Art Infrastructure</h3>
+                    <p class="mt-4">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                        This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+                </div>
+            </div>
+        </section>
+
+ 
+        <section class="flex flex-wrap justify-between items-center py-16">
+            <div class="flex-1 text-center">
+                <img src="images/illustration-laptop-desktop.svg" alt="Laptop Illustration" class="mx-auto">
+            </div>
+            <div class="flex-1 pl-8">
+                <h4 class="text-xl font-semibold mt-8">Free, open, simple</h4>
+                <p class="mt-4">Blogr is a free and open source application backed by a large 
+                    community of helpful developers. It supports features such 
+                    as code syntax highlighting, RSS feeds, social media 
+                    integration, third-party commenting tools, and works 
+                    seamlessly with Google Analytics. The architecture is clean 
+                    and is relatively easy to learn.</p>
+                <h4 class="text-xl font-semibold mt-8">Powerful tooling</h4>
+                <p class="mt-4">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+            </div>
+        </section>
+        
+        <footer class="bg-dark-blue text-white py-12">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div class="md:w-1/5 mb-8 md:mb-0">
+                    <h4 class="font-bold text-xl mb-4">Blogr</h4>
+                </div>
+                <div class="md:w-1/5 mb-8 md:mb-0">
+                    <h4 class="font-bold mb-4">Product</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Overview</a></li>
+                        <li><a href="#" class="hover:underline">Pricing</a></li>
+                        <li><a href="#" class="hover:underline">Marketplace</a></li>
+                        <li><a href="#" class="hover:underline">Features</a></li>
+                        <li><a href="#" class="hover:underline">Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="md:w-1/5 mb-8 md:mb-0">
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">About</a></li>
+                        <li><a href="#" class="hover:underline">Team</a></li>
+                        <li><a href="#" class="hover:underline">Blog</a></li>
+                        <li><a href="#" class="hover:underline">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="md:w-1/5">
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Contact</a></li>
+                        <li><a href="#" class="hover:underline">Newsletter</a></li>
+                        <li><a href="#" class="hover:underline">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+         
+
+</body>
+</html>
